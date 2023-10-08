@@ -3,79 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SRISTY - CV</title>
+    <title>SRISTY CHOWDHURY  - Curriculum Vitae</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #2e2020;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0; /* Optional: Add a background color */
+            color: #333;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Make the body fill the entire viewport height */
         }
-
+        .header {
+            text-align: center;
+            background-color: #0f1518;
+            padding: 20px;
+            color: white;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+        .header p {
+            font-size: 18px;
+            margin-top: 0;
+        }
         .container {
             max-width: 800px;
-            margin: 0 auto;
             padding: 20px;
-            text-align: center; /* Center-align the content horizontally */
-            background-color: #fff; /* Optional: Add a background color */
-            border-radius: 10px; /* Optional: Add rounded corners to the container */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a card-like effect */
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(32, 31, 31, 0.1);
         }
-
-        /* Your CSS styles here */
-
-        /* Style the header image */
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%; /* Optional: Add a rounded border to the image */
+        .section {
+            margin-bottom: 20px;
         }
-
-        /* Style the headings */
-        h1, h2 {
-            color: #333; /* Optional: Change heading text color */
+        .section h2 {
+            font-size: 24px;
+            color: #0a0c0e;
+            margin-bottom: 10px;
         }
-
-        /* Style the paragraphs */
-        p {
-            color: #666; /* Optional: Change paragraph text color */
+        .section p {
+            font-size: 16px;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <img src="pic.png" alt="SRISTY CHOWDHURY - Profile Picture">
+        <h1>SRISTY CHOWDHURY </h1>
+        <p> Unique Thinker | Problem Solver</p>
+    </div>
+
     <div class="container">
-        <header>
-            <img src="pic.png" alt="SRISTY CHOWDHURY">
-            <h1>SRISTY CHOWDHURY</h1>
-            <p>Email: sristychowdhury2001@gmail.com<br>Phone Number: +8615752042558</p>
-        </header>
-          
-        <section>
-            <h2>Summary</h2>
+        <section class="section">
+            <h2>About Me</h2>
             <p>"I have a Bachelor's degree in Electronic Information and Engineering, which fueled my passion for learning. I love music and storytelling; singing lets me express myself through melodies, while reciting allows me to share compelling stories.
 
-            I'm a mix of tech knowledge and artistic passion, always seeking ways to bridge the gap between science and art. I believe in the power of human connection through music and storytelling.
-
-            As I journey through life, I aim to blend innovation and inspiration, making a positive impact on the world."</p>
+                I'm a mix of tech knowledge and artistic passion, always seeking ways to bridge the gap between science and art. I believe in the power of human connection through music and storytelling.
+    
+                As I journey through life, I aim to blend innovation and inspiration, making a positive impact on the world."</p>
         </section>
-          
-        <section>
+
+       
+
+        <section class="section">
             <h2>Education</h2>
             <p><strong>Zhejiang UNIVERSITY</strong><br>Master's in Industrial Design Engineering <br>Duration:2023 - </p>
             <p><strong>YUNNAN UNIVERSITY</strong><br>Bachelor of Electronic Information and Engineering<br>Duration: 2019 - 2023</p>
         </section>
-          
-        <section>
+
+        <section class="section">
             <h2>Skills</h2>
-            <p>C<br>HTML<br>CSS<br>Laravel</p>
+            <p>C<br>HTML<br>CSS<br>Laravel <br> Problem Solving </p>
         </section>
-        
-        <section>
+        <section class="section">
             <h2>Hobbies</h2>
             <p>Singing<br>Reciting<br>Sometimes Drawing</p>
         </section>
-        
-        <!-- Rest of your CV content here -->
+
+        <section class="section">
+            <h2>Contact</h2>
+            <p>Email:  sristychowdhury2001@gmail.com<br>Phone Number: +8615752042558</p>
+            
+        </section>
     </div>
 </body>
 </html>
